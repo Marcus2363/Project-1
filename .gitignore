@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django secret key file or environment variable files
+.env
+*.env
+
+# Django migrations
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Local development environment
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+venv/
+.env/
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+__pycache__/
+*.manifest
+*.spec
+
+# Logs and database files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.seed
+*.sublime-workspace
+
+# Media files
+media/
+
+# Static files
+static/
+staticfiles/
+static_root/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Directories created by macOS's service
+.Spotlight-V100/
+.Trashes/
+
+# Ignore node_modules/ if using JavaScript package managers like npm or yarn
+node_modules/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore temporary files
+*~
